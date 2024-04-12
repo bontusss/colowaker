@@ -8,7 +8,7 @@ import (
 
 func main() {
 	// Define the URL of the API you want to call
-	apiUrl := "https://colosach.onrender.com/api/search"
+	apiUrl := "https://colosach.onrender.com/api/health-checker"
 
 	// Define a ticker that ticks every 10 minutes
 	ticker := time.NewTicker(14 * time.Minute)
